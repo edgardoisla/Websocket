@@ -1,0 +1,16 @@
+<div>
+    <h2> Mis productos:</h2>
+
+        {{#each events}}
+
+            <ul>
+
+                <li>Producto: {{this.title}}</li>
+                <li>Precio: {{this.price}}</li>
+                <li>Descripción: {{this.description}}</li>
+            
+            </ul>
+            
+        {{/each}}
+
+</div>
